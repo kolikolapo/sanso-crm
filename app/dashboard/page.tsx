@@ -320,8 +320,8 @@ export default function Dashboard() {
                               <FileText size={12} className="text-gray-400"/> {customer.tax_id}
                           </div>
                       </td>
-                      <td className="p-5 hidden md:table-cell">
-                        <span className="px-2.5 py-1 rounded-md text-[11px] font-bold bg-[#282828] text-white shadow-sm border border-gray-700">
+                      <td className="p-5 hidden md:table-cell whitespace-nowrap">
+                        <span className="px-2.5 py-1 rounded-md text-[11px] font-bold bg-[#282828] text-white shadow-sm border border-gray-700 whitespace-nowrap">
                           {customer.model}
                         </span>
                       </td>
