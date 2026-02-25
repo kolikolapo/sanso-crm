@@ -313,7 +313,7 @@ export default function Dashboard() {
                       </td>
                       <td className="p-5">
                           <div className="font-bold text-gray-900 text-sm">{customer.name}</div>
-                          <div className="text-xs text-gray-400 md:hidden mt-1">{customer.model}</div>
+                          <div className="text-xs text-gray-400 md:hidden mt-1 whitespace-nowrap">{customer.model}</div>
                       </td>
                       <td className="p-5 hidden lg:table-cell">
                           <div className="flex items-center gap-2 text-xs font-mono text-gray-600">
